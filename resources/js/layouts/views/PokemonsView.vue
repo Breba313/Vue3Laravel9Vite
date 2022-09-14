@@ -16,6 +16,7 @@
 </script>
 
 <template>
+  <div class="container col-8 mt-5">
     <h1>Pokemons</h1>
     <ul>
       <li v-for="poke in pokemons">
@@ -24,6 +25,7 @@
         </router-link>
       </li>
     </ul>
+  </div>
 </template>
 
 <style>
